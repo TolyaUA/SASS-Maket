@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import "_variables";
+@import "helpers/_mixin";
+
+// sections
+@import "sections/slider/_slider.scss";
+
+// phone sections
+@import "sections/slider/_slider-phone.scss";
+
+body {
+  background: $colorBlack;
+}
+
+.container {
+  padding: 0;
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
+@import "layout/_header";
